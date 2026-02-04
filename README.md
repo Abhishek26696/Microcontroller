@@ -8,7 +8,9 @@
 <br>
 
 // CRC-8 function (polynomial 0x07)
+<br>
 unsigned char crc8(unsigned char *data, int len)
+<br>
 {
     unsigned char crc = 0x00;
     unsigned char poly = 0x07;
