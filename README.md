@@ -34,9 +34,13 @@ unsigned char crc8(unsigned char *data, int len)
 }
 
 int main()
+<br>
 {
+<br>
     unsigned char sof = 0xFF;
+    <br>
     unsigned char payload[8];
+    <br>
     unsigned char crc;
 
     srand(time(NULL));
