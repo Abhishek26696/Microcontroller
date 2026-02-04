@@ -1,8 +1,11 @@
 #include <stdio.h>
 <br>
 #include <stdlib.h>
+<br>
 #include <time.h>
+<br>
 #include <unistd.h>
+<br>
 
 // CRC-8 function (polynomial 0x07)
 unsigned char crc8(unsigned char *data, int len)
