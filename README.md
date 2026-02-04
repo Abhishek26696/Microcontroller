@@ -12,8 +12,11 @@
 unsigned char crc8(unsigned char *data, int len)
 <br>
 {
+<br>
     unsigned char crc = 0x00;
+    <br>
     unsigned char poly = 0x07;
+    <br>
 
     for (int i = 0; i < len; i++)
     {
