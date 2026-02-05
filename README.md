@@ -44,7 +44,7 @@ int main()
     unsigned char crc;
 
     srand(time(NULL));
-    <br>
+    
 
     while (1)
     {
