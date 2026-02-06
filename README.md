@@ -31,6 +31,7 @@ docker build -t my-c-app .
 <br>
 docker images
 <br>
+<br>
 //Run Docker Image
 <br>
 <br>
@@ -47,6 +48,7 @@ docker login
 <br>
 <br>
 docker tag my-c-app yourusername/my-c-app:latest
+<br>
 <br>
 //Push Image to Docker hub
 <br>
