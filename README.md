@@ -5,6 +5,7 @@ main.c
 <br>
 Dockerfile
 <br>
+<br>
 //Create a Dockerfile
 <br>
 <br>
@@ -18,10 +19,12 @@ RUN gcc main.c -o myapp
 <br>
 CMD ["./myapp"]
 <br>
+<br>
 //Build Docker Image
 <br>
 <br>
 docker build -t my-c-app .
+<br>
 <br>
 //checking Image
 <br>
@@ -33,10 +36,12 @@ docker images
 <br>
 docker run my-c-app
 <br>
+<br>
 //Login to dockerhub
 <br>
 <br>
 docker login
+<br>
 <br>
 //Tag Image with dockerhub username
 <br>
@@ -47,6 +52,7 @@ docker tag my-c-app yourusername/my-c-app:latest
 <br>
 <br>
 docker push yourusername/my-c-app:latest
+<br>
 <br>
 //Pull and Run from Anywhere
 <br>
