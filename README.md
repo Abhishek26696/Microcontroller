@@ -63,4 +63,30 @@ docker pull yourusername/my-c-app:latest
 <br>
 docker run -it --rm yourusername/my-c-app:latest
 
+//CODE IS PUSHED TO GITHUB
+//Create a Project Folder
+hello.c
+//Run the Program
+gcc hello.c
+./a.out 
+//Initializing the Git
+git init
+//Check Status
+git status
+//Add files to Git
+git add .
+//Commit your code
+git commit -m "Initial commit - C program"
+//Connect local repo to Github repo
+Go to->Github->your repository->Code button
+Copy the HTTPS URL (example)
+https://github.com/username/repository-name.git
+Now link it
+git remote add origin https://github.com/username/repository-name.git
+Verify
+git remote -v
+//Push code to Github
+git branch -M main
+git push -u origin main
+
         
