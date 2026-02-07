@@ -65,17 +65,21 @@ docker run -it --rm yourusername/my-c-app:latest
 
 //CODE IS PUSHED TO GITHUB
 <br>
+<br>
 //Create a Project Folder
+<br>
 <br>
 hello.c
 <br>
 //Run the Program
+<br>
 <br>
 gcc hello.c
 <br>
 ./a.out 
 <br>
 //Initializing the Git
+<br>
 <br>
 git init
 <br>
@@ -85,13 +89,16 @@ git status
 <br>
 //Add files to Git
 <br>
+<br>
 git add .
 <br>
 //Commit your code
 <br>
+<br>
 git commit -m "Initial commit - C program"
 <br>
 //Connect local repo to Github repo
+<br>
 <br>
 Go to->Github->your repository->Code button
 <br>
@@ -108,6 +115,7 @@ Verify
 git remote -v
 <br>
 //Push code to Github
+<br>
 <br>
 git branch -M main
 <br>
