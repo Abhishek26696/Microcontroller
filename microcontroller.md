@@ -297,11 +297,13 @@ CPU["CPU<br/>ALU , CU , Registers"]
 
 BUS["System Bus"]
 
+subgraph MEMORY
 FLASH["Flash Memory"]
 RAM["Random Access Memory"]
 EEPROM["Electrically Erasable Programmable Read Only Memory"]
 DEBUG["Debug Unit"]
 
+subgraph PERIPHERALS
 GPIO["GPIO Ports"]
 TIMERS["Timers / Counters"]
 ADC["ADC / DAC"]
