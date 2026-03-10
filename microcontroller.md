@@ -249,7 +249,7 @@ Example:
  - Cruise control
 
 3. Industrial Automation
-Microcontrollers are used to control machines in industries.
+Microcontrollers are used to control machines in industries
 Example:
  - Robotics
  - Conveyor belt systems
@@ -257,7 +257,7 @@ Example:
  - Motor control
 
 4. Medical Devices
-Microcontrollers are used in healthcare equipment.
+Microcontrollers are used in healthcare equipment
 Example:
  - Heart rate monitors
  - Blood glucose meters
@@ -272,7 +272,7 @@ Example:
  - Wearable devices
 
 6. Aerospace and Defence
-Microcontrollers are used in advanced systems such as:
+Microcontrollers are used in advanced systems such as
  - Satellite communication
  - Flight control systems
 They control sensors and navigation systems
@@ -302,25 +302,27 @@ FLASH["Flash Memory"]
 RAM["Random Access Memory"]
 EEPROM["Electrically Erasable Programmable Read Only Memory"]
 DEBUG["Debug Unit"]
+end
 
 subgraph PERIPHERALS
 GPIO["GPIO Ports"]
 TIMERS["Timers / Counters"]
 ADC["ADC / DAC"]
 COMM["UART / SPI / I2C"]
+end
 
 CPU --> BUS
 
 BUS --> FLASH
 BUS --> RAM
 BUS --> EEPROM
-BUS --> DEBUG
 
 BUS --> GPIO
 BUS --> TIMERS
 BUS --> ADC
-
 BUS --> COMM
+
+BUS --> DEBUG
 ```
 
 
