@@ -23,7 +23,7 @@ An MCU combines several components in one chip:
 
 
 ### Types of Microcontrollers
-Classified in different ways depending on number of bits, memory architecture, instruction set, memory type
+Classified in different ways depending on number of bits, memory architecture, instruction set and memory type
 
 ### Classification based on number of bits
 
@@ -145,25 +145,25 @@ Status Register - stores flags
 4. Memory
 Memory stores both program instructions and data
 
-- Flash Memory (Program Memory)
+- Flash Memory (Program Memory) :
 Flash memory stores the program code
   - Non-volatile memory
   - Data remains even when power is OFF
   - Used to store firmware
 
-- RAM (Random Access Memory)
+- RAM (Random Access Memory) :
 RAM stores temporary data during program execution
   - Volatile memory
   - Data is lost when power is OFF
   - Used for variables and calculations
 
-- EEPROM
+- EEPROM :
 EEPROM stores small permanent data
   - Non-volatile
   - Can be rewritten
   - Used for configuration values
 
-5. Input/Output ports (GPIO)
+5. Input/Output ports (GPIO) :
 GPIO means General Purpose Input Output pins.
 These pins connect the MCU to external devices.
 - Read input signals
@@ -293,19 +293,19 @@ They control sensors and navigation systems
 ```mermaid
 flowchart TD
 
-CPU [CPU<br>ALU | CU | Registers]
+CPU["CPU<br/>ALU , CU , Registers"]
 
-BUS [System Bus]
+BUS["System Bus"]
 
-FLASH [Flash Memory]
-RAM [Random Access Memory]
-EEPROM [Electrically Erasable Programmable Read Only Memory]
-DEBUG [Debug Unit]
+FLASH["Flash Memory"]
+RAM["Random Access Memory"]
+EEPROM["Electrically Erasable Programmable Read Only Memory"]
+DEBUG["Debug Unit"]
 
-GPIO [GPIO Ports]
-TIMERS [Timers / Counters]
-ADC [ADC / DAC]
-COMM [UART / SPI /I2C]
+GPIO["GPIO Ports"]
+TIMERS["Timers / Counters"]
+ADC["ADC / DAC"]
+COMM["UART / SPI / I2C"]
 
 CPU --> BUS
 
