@@ -1,6 +1,6 @@
 ## Microcontroller
 A microcontroller (MCU) is a compact, cost-effective, "computer on a chip" designed to manage specific, dedicated tasks within embedded systems, such as in appliances, automobiles or robots. It integrates a processor core (CPU), memory (RAM/ROM), and programmable input/output (I/O) peripherals on a single integrated circuit.
-
+---
 
 ### What an MCU contains 
 An MCU combines several components in one chip:
@@ -20,7 +20,7 @@ An MCU combines several components in one chip:
 6. Analog Peripherals
     * ADC (Analog-to-Digital Converter)
     * DAC (Digital-to-Analog Converter)
-
+---
 
 ### Types of Microcontrollers
 Classified in different ways depending on number of bits, memory architecture, instruction set and memory type
