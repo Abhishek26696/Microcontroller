@@ -28,7 +28,7 @@ An MCU combines several components in one chip:
 Classified in different ways depending on number of bits, memory architecture, instruction set and memory type
 
 ### Classification based on number of bits
-
+```
 1. 8 bits
 An 8-bit MCU processes 8 bits of data at a time
    - Characteristics
@@ -67,8 +67,10 @@ An 32-bit MCU processes 32 bits of data at a time
      - 32 bit cpu
      - Large RAM and flash
      - DSP instructions
+```
 
 ### Classification based on Memory Architecture
+```
 1. Harvard Architecture
    - Program memory and data memory are separate
    - It uses 2 separate buses
@@ -85,8 +87,10 @@ An 32-bit MCU processes 32 bits of data at a time
    - Slower execution
    - Less complex
    - Cost is low
+```
 
 ### Classification based on Instruction set
+```
 1. RISC (Reduced Instruction Set Computer)
    - Small instruction set 
    - Faster Performance
@@ -98,8 +102,10 @@ An 32-bit MCU processes 32 bits of data at a time
    - Slower Performance
    - Multiple instructions per clock cycle
    - Complex instructions
+```
    
 ### Classification based on Memory Type
+```
 1. Embedded Memory Microcontrollers
    - Memory is inside the chip
    - Types of memory - ROM,Flash and EEPROM
@@ -107,9 +113,11 @@ An 32-bit MCU processes 32 bits of data at a time
 2. External Memory Microcontrollers
    - Memory is connected externally
    - Large Memory capacity
+```
 
 ### Parts of Microcontroller
 1. CPU (Central Processing Unit)
+```
 The CPU is the brain of the Microcontroller
 It executes the program instructions
 
@@ -123,15 +131,19 @@ Operations include:
 - AND
 - NOT
 - OR
+```
 
 2. Control Unit (CU)
+```
 The control unit manages the flow of data inside the MCU
 - Fetch instructions from memory
 - Decode instructions
 - Send control signals to peripherals
 - Coordinate CPU operations
+```
 
 3. Registers
+```
 Registers are very small high-speed memory locations inside the CPU
 They store:
 - Temporary data
@@ -143,8 +155,10 @@ Accumulator - stores arithmetic results
 Program Counter - stores next instruction address
 Stack Pointer - Manages stack memory
 Status Register - stores flags
+```
 
 4. Memory
+```
 Memory stores both program instructions and data
 
 - Flash Memory (Program Memory) :
@@ -164,8 +178,10 @@ EEPROM stores small permanent data
   - Non-volatile
   - Can be rewritten
   - Used for configuration values
+```
 
 5. Input/Output ports (GPIO) :
+```
 GPIO means General Purpose Input Output pins.
 These pins connect the MCU to external devices.
 - Read input signals
@@ -175,20 +191,26 @@ Examples of devices connected:
 LED
 Motor
 Sensor
+```
 
 6. Timers and Counters
+```
 Timers are used to measure time intervals
 Counters count external events.
 - Generate delays
 - Measure time
 - Control PWM signals
 - Event counting
+```
 
 7. Interrupt System
+```
 Interrupts allow the MCU to respond immediately to important events
 Instead of continuously checking events, the MCU pauses the current task and executes an interrupt routine
+```
 
 8. Communication Interfaces
+```
 Microcontrollers communicate with other devices using communication protocols
 
 Common interfaces:
@@ -209,20 +231,28 @@ Used for communication between multiple ICs using only two wires.
 Example:
 Temperature sensors
 RTC modules
+```
 
 9. ADC (Analog to Digital Converter)
+```
 ADC converts analog signals into digital values
 Many sensors produce analog signals
+```
 
 10. DAC (Digital to Analog Converter)
+```
 DAC converts digital data into analog signals
 DAC converts it into analog voltage
+```
 
 11. Clock System
+```
 The clock provides timing signals for the MCU
 It determines how fast instructions execute
+```
 
 12. Bus System
+```
 Buses transfer data between components
 Types:
 Data Bus
@@ -231,11 +261,13 @@ Address Bus
 - Carries memory addresses.
 Control Bus
 - Carries control signals.
+```
 
 ### Uses of Microcontroller
+```
 1. Home Applainces
 Microcontrollers control the functioning of many household devices
-Example:
+- Example:
  - Washing Machine
  - Microwave Ovens
  - Refrigerators
@@ -243,7 +275,7 @@ Example:
 
 2. Automotive Systems
 Modern vehicles contain many number of microcontrollers
-Example:
+- Example:
  - Engine control unit (ECU)
  - Airbag system
  - Anti-lock braking system (ABS)
@@ -252,7 +284,7 @@ Example:
 
 3. Industrial Automation
 Microcontrollers are used to control machines in industries
-Example:
+- Example:
  - Robotics
  - Conveyor belt systems
  - Temperature control systems
@@ -260,7 +292,7 @@ Example:
 
 4. Medical Devices
 Microcontrollers are used in healthcare equipment
-Example:
+- Example:
  - Heart rate monitors
  - Blood glucose meters
  - ECG machines
@@ -268,7 +300,7 @@ Example:
 
 5. Internet of things (IoT)
 IoT devices rely heavily on microcontrollers
-Example:
+- Example:
  - Smart homes
  - Smart cities
  - Wearable devices
@@ -278,9 +310,11 @@ Microcontrollers are used in advanced systems such as
  - Satellite communication
  - Flight control systems
 They control sensors and navigation systems
+```
 
 
 ### Architecture of Microcontroller
+```
 - CPU (Central Processing Unit)
 - Memory (Flash, RAM, EEPROM)
 - Input/Output Ports (GPIO)
@@ -291,6 +325,7 @@ They control sensors and navigation systems
 - Clock System
 - Bus System
 - Debug Unit
+```
 
 ```mermaid
 flowchart TD
