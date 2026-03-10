@@ -147,21 +147,21 @@ Memory stores both program instructions and data
 
 - Flash Memory (Program Memory)
 Flash memory stores the program code
-- Non-volatile memory
-- Data remains even when power is OFF
-- Used to store firmware
+  - Non-volatile memory
+  - Data remains even when power is OFF
+  - Used to store firmware
 
 - RAM (Random Access Memory)
 RAM stores temporary data during program execution
-- Volatile memory
-- Data is lost when power is OFF
-- Used for variables and calculations
+  - Volatile memory
+  - Data is lost when power is OFF
+  - Used for variables and calculations
 
 - EEPROM
 EEPROM stores small permanent data
-- Non-volatile
-- Can be rewritten
-- Used for configuration values
+  - Non-volatile
+  - Can be rewritten
+  - Used for configuration values
 
 5. Input/Output ports (GPIO)
 GPIO means General Purpose Input Output pins.
@@ -202,7 +202,7 @@ Sensors
 Displays
 Memory chips
 
--I²C (Inter-Integrated Circuit)
+- I²C (Inter-Integrated Circuit)
 Used for communication between multiple ICs using only two wires.
 Example:
 Temperature sensors
@@ -234,47 +234,47 @@ Control Bus
 1. Home Applainces
 Microcontrollers control the functioning of many household devices
 Example:
-- Washing Machine
-- Microwave Ovens
-- Refrigerators
-- Air Conditioners
+ - Washing Machine
+ - Microwave Ovens
+ - Refrigerators
+ - Air Conditioners
 
 2. Automotive Systems
 Modern vehicles contain many number of microcontrollers
 Example:
-- Engine control unit (ECU)
-- Airbag system
-- Anti-lock braking system (ABS)
-- Power steering
-- Cruise control
+ - Engine control unit (ECU)
+ - Airbag system
+ - Anti-lock braking system (ABS)
+ - Power steering
+ - Cruise control
 
 3. Industrial Automation
 Microcontrollers are used to control machines in industries.
 Example:
-- Robotics
-- Conveyor belt systems
-- Temperature control systems
-- Motor control
+ - Robotics
+ - Conveyor belt systems
+ - Temperature control systems
+ - Motor control
 
 4. Medical Devices
 Microcontrollers are used in healthcare equipment.
 Example:
-- Heart rate monitors
-- Blood glucose meters
-- ECG machines
-- Digital thermometers
+ - Heart rate monitors
+ - Blood glucose meters
+ - ECG machines
+ - Digital thermometers
 
 5. Internet of things (IoT)
 IoT devices rely heavily on microcontrollers
 Example:
-- Smart homes
-- Smart cities
-- Wearable devices
+ - Smart homes
+ - Smart cities
+ - Wearable devices
 
 6. Aerospace and Defence
 Microcontrollers are used in advanced systems such as:
-- Satellite communication
-- Flight control systems
+ - Satellite communication
+ - Flight control systems
 They control sensors and navigation systems
 
 
