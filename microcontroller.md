@@ -319,6 +319,7 @@ BUS --> DEBUG
 BUS --> GPIO
 BUS --> TIMERS
 BUS --> ADC
+
 BUS --> COMM
 ```
 
